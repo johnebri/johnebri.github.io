@@ -1,0 +1,160 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>HNG Task 2 </title>
+        <meta name="description" content="John Ebri's CV">
+        <meta name="author" content="johnebri">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
+        
+
+    </head>
+
+    <body>
+    
+        <main id="wrapper">
+
+            <section id="header">
+
+                <article class="bio">
+                    <div class="bio-data">
+                        <h2>John Ebri</h2>
+                        <h5>Software Engineer (MCSA)</h5><br>
+                        <p>Professional Software Engineer with a demonstrated history of working in the computer software industry. Experienced in Spring boot and CodeIgniter, having develped web applications and web APIs for over four years. Passionate about crafting efficient solutions to complex problems. </p>
+                    </div>
+                    <div class="image">
+                        <img src="JohnEbri.png" alt="John Ebri">
+                    </div>
+                </article>
+
+                <article class="contact">
+                    <p>john.ebri@yahoo.com <i class="fas fa-envelope-square"></i></p>
+                    <p>234 703 060 1520 <i class="fas fa-phone"></i></p>
+                    <p>Lagos, Nigeria <i class="fas fa-map-marker-alt"></i></p>
+                    <p>linkedin.com/johnebri  <i class="fab fa-linkedin-in"></i></p>
+                    <p>johnebri <i class="fab fa-skype"></i></p>
+                </article>
+
+            </section>
+
+            <section id="content">
+                <article class="left">
+                    <div class="work-experience">
+                        <h2>Work Experience</h2>
+
+                        <div class="office">
+                            <h4>Software Engineer - Neptune Software Group, Lagos.<br>
+                            <span class="date">April 2019 - present</span></h4>
+                            <ul>
+                                <li> Responsible for developing REST APIs in java (J2EE).</li>
+                                <li> Developed a USSD application with Java that connects to Interswitch API for bank transactions.</li>
+                            </ul>
+                        </div>
+
+                        <div class="office">
+                            <h4>Head of Academics, APTECH, Calabar. <br> 
+                            <span class="date">September2018 – March 2019</span></h4>                          
+                            <ul>
+                                <li> Trained faculties and students on programming courses.</li>
+                                <li> Administered Portal examination to students.</li>
+                                <li> Marked student’s attendance as per portal. </li>
+                                <li> Distributed relevant jobs to faculty members and providing support when required.</li>
+                            </ul>
+                        </div>
+
+                        <div class="office">
+                            <h4>HTML5/PHP/C# Faculty, APTECH, Calabar.<br>
+                            <span>December 2016 – September 2018</span></h4>
+                            <ul>
+                                <li> Developed and maintained Exam portal software. </li>
+                                <li> Trained students on Web Development using ASP.NET MVC, HTML5, CSS3, JavaScript, PHP and MySQL.</li>
+                                <li> Marked student’s attendance weekly on the portal. </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="education">
+                        <h2>Education</h2>
+                            <div class="school">Cross River University of Technology: B.Sc. (Hons) Physics. (Electronics Option) Upper-Class division Honours (2:1) 2012-2016.</div>
+                            <div class="school">Holy Standard College, Ugep: West Africa Senior Secondary Certificate of Education (WASSCE) 2002-2008.</div>
+                            <div class="school"> Duke Town Primary School, Calabar: First School Leaving Certificate (FSLC), 1995-2012.</div>
+                        </ul>
+                    </div>
+
+                </article>
+
+                <article class="right">
+                    <div class="skills">
+                        <h2>Skills</h2>
+                        <p>Spring Boot <progress value="90" max="100"></progress></p>
+                        <p>J2SE <progress value="85" max="100"></progress></p>
+                        <p>ASP.NET MVC <progress value="80" max="100"></progress></p>
+                        <p>CodeIgniter <progress value="95" max="100"></progress></p>
+                        <p>Laravel <progress value="66" max="100"></progress></p>
+                        <p>Angular <progress value="70" max="100"></progress></p>
+                        <p>Ionic <progress value="69" max="100"></progress></p>
+                        <p>Project Management <progress value="75" max="100"></progress></p>
+                        <p>Team Work <progress value="95" max="100"></progress></p>
+                    </div>
+
+                    <div class="certs">
+                        <h2>Certifications</h2>
+
+                        <div class="cert">
+                            <strong> MCSA: </strong> Web Developer; Microsoft Certified Solutions Associate. – <a href="https://www.youracclaim.com/badges/b3cfc7fe-5861-448f-811a-25cfba439c5e" target="_blank">G238-5947</a>
+                        </div>
+                        <div class="cert">
+                            <strong> MCP: </strong> Microsoft Certified Professional (HTML5, CSS3, JavaScript).  – <a href="https://www.youracclaim.com/badges/b5991870-633f-477a-b62c-b31762afdbf3" target="_blank"> G224-6593 </a>
+                        </div>
+                        <div class="cert">
+                            <strong> APTECH Certified Trainer (ASP.NET MVC)</strong> 
+                        </div>
+                        <div class="cert">
+                            <strong> Android Developer: </strong> Google, Andela Learning Community. 
+                        </div>
+                    </div>
+
+                    <!-- <div class="languages">
+                        <h2>Languages</h2>
+                        <div class="lang">English</div>
+                            <div class="lang">Efik</div>
+                            <div class="lang">Yoruba</div>
+                        </ul>
+                    </div> -->
+
+                    <div class="contact-form">
+                        <h2>Drop me a Line</h2>
+                        <form method="post" id="myForm">
+                            <div id="response" style="display: none;"></div>
+
+                            <input type="text" name="name" id="name" placeholder="Name" onkeyup="validateName()" />
+                            <div id="nameError" style="display:none;"></div>
+
+                            <input type="text" name="email" id="email" placeholder="Email" onkeyup="validateEmail()" />
+                            <div id="emailError" style="display:none;"></div>
+
+                            <input type="text" name="title" id="title" placeholder="Title" onkeyup="validateTitle()" />
+                            <div id="titleError" style="display:none;"></div>
+
+                            <textarea name="message" id="message" onkeyup="validateMessage()" placeholder="Enter Message Here" cols=""></textarea>
+                            <div id="messageError" style="display:none;"></div>
+
+                            <button class="contact-btn" id="submitBtn" type="button" disabled>Send Message</button>
+
+                        </form>
+                    </div>
+
+                </article>
+
+            </section>
+
+        </main>
+
+        <script src="main.js"></script>
+        
+    </body>
+</html>

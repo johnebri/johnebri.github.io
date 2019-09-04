@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wrapper{
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#header{
+    width: 100%;
+    height: 180px;
+    border-bottom: solid thin #DDE5F7;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bio{
+    float: left;
+    width: 65%;
+}
+
+.bio-data{
+    width: 65%;
+    float: left;
+}
+
+.bio-data p{
+    text-align: justify;
+}
+
+.image {
+    width: 20%;
+    float: right;
+}
+
+.image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: solid thick #DDE5F7;;
+    margin-top: 20px;
+}
+
+.contact{
+    float: right;
+    width: 25%;
+    text-align:right;
+}
+
+#content{
+    width: 100%;
+    height: 700px;
+    padding-top: 20px;
+    margin-bottom: 510px;
+}
+
+.contact p{
+    margin: 10px;
+}
+
+.contact p i{
+    margin-left: 15px;
+}
+
+.left{
+    float: left;
+    width: 45%;
+}
+
+.work-experience{
+    margin: 5px;
+}
+
+.office {
+    margin: 20px 20px 20px 0px;
+    padding: 5px;
+}
+
+.office h4{
+    border-left: solid 40px #DDE5F7;
+    padding-left: 10px;
+    margin-left: -55px;
+}
+
+.office .date{
+    font-size: 13px;
+}
+
+.office ul li{
+    margin-left: 20px;
+    margin: 10px;
+   
+}
+
+.office ul li::before {
+    color: #DDE5F7;
+    display: inline-block; 
+    width: 5em;
+    margin-left: -1em;
+  }
+
+.education {
+    margin-top: 30px;
+}
+
+.school {
+    margin: 20px 20px 20px 0px;
+    padding: 5px;
+}
+
+
+.right{
+    float: right;
+    width: 45%;
+    text-align: left;
+}
+
+.skills {
+    margin-top: 10px;
+}
+
+.skills p{
+    margin: 20px 20px 20px 0px;
+}
+
+.skills progress{
+    float: right;
+    width: 250px;
+    height: 10px;
+}
+
+.certs {
+    margin-top: 30px;
+}
+
+.cert{
+    margin: 10px 10px 10px 0px;
+    padding: 5px;
+}
+
+.certs a{
+    text-decoration: none;
+    color: rgb(22, 32, 54);
+}
+
+.certs a:hover{
+    color: rgb(164, 180, 218);
+}
+
+.languages {
+    margin-top: 30px;
+}
+
+.lang{
+    margin: 10px 10px 10px 0px;
+    padding: 5px;
+}
+
+.contact-form {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+input[type=text], textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+
+    border: 1px solid #DDDDDD;
+    display: block;
+    margin: 15px 0px 2px 0px;
+    padding: 10px;
+    width: 80%;
+  }
+   
+  input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+  }
+
+.contact-btn {
+    display: block;
+    padding: 15px;
+    background: #DDE5F7;
+    border: none;
+    width: 120px;
+    margin-top: 10px;
+}
+
+/* .contact-btn:hover {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    background: #2d2d35;
+    color: #fff;
+    cursor: pointer;
+} */
+
+.error {
+    background: #f0c2c2;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0 2px 0;
+}
+
+.success {
+    background: #c5f5d8;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0 2px 0;
+}
+
+.inline-error {
+    color: red;
+    margin-bottom: 5px;
+}
+
+button[type="button"]:disabled {
+    cursor: not-allowed;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+.clean {
+    cursor: pointer;
+    background: #547a5c;
+    color: #ffffff;
+}
